@@ -3,7 +3,7 @@ module.exports = {
 };
 
 function add(a, b) {
-  return null;
+  return a * b;
 }
 
 // start testing with low hanging fruit --> happy path (your basic assumptions)
