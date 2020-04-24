@@ -44,3 +44,19 @@ Then...
 Given two numbers
 When the add function is invoked
 Then it should return the sum of the two numbers
+
+## Test Driven Development/Design
+
+Red > Green > Refactor  --------> Commit
+
+Red: write a failing test.
+
+Green: write enough implementation code to make the test pass.
+
+Refactor: rewrite the code without changing the functionality. Reformatting the test and implementation code without breaking the tests.
+
+
+## What to test
+- start testing with low hanging fruit --> happy path (your basic assumptions)
+- then check for invalid input
+- then move on to edge cases
